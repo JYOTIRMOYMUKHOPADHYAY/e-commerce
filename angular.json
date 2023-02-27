@@ -102,5 +102,8 @@
       }
     }
   },
-  "defaultProject": "e-comerce"
+  "defaultProject": "e-comerce",
+  "cli": {
+    "analytics": false
+  }
 }

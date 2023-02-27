@@ -1,0 +1,24 @@
+<div>
+    <mat-toolbar color="primary">
+        <div fxShow="true" fxHide.gt-sm="true">
+            <button mat-icon-button>
+                <mat-icon>menu</mat-icon>
+            </button>
+        </div>
+
+        <a mat-button class="companyName" routerLink="/">
+            <span>Site name</span>
+        </a>
+        <span class="example-spacer"></span>
+        <div fxShow="true" fxHide.lt-md="true">
+            <a mat-button routerLink="/login">Login/Register</a>
+            <!-- <a mat-button routerLink="/prices">Prices</a>
+        <a mat-button routerLink="/start-page">Start page</a>
+        <a mat-button routerLink="/offer">Offer</a>
+        <a mat-button routerLink="/contact">Contact</a> -->
+        </div>
+
+    </mat-toolbar>
+
+</div>
+

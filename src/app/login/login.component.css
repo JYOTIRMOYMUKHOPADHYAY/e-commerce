@@ -1,0 +1,35 @@
+.example-form {
+    width: 100%;
+}
+
+.example-full-width {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.example-button-row {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.login-card{
+    margin-top: 20px;
+    width: 45%;
+}
+.login-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media only screen and (max-width: 764px) {
+    .login-card{
+        margin-top: 20px;
+        width: 90%;
+    }
+    .login-form{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+  }
